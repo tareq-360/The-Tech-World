@@ -1,0 +1,58 @@
+.font-inter{
+  font-family: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(37, 224, 27);
+}
+
+body{
+    max-width: 1600px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px 16px 200px;
+}
+.logo h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+.logo span{
+    font-weight: bold;
+    
+    background: linear-gradient(to right, #ff2c02, #d767b3 ,pink) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.list-item{
+    list-style: none;
+    
+}
+.list-item ul{
+   
+    display: flex;
+    gap: 20px;
+}
+.list-item a{
+     color: #ffffff;
+}
+
+.sub-btn button{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: linear-gradient(to right, #ffce3c, #d708c2);
+    border-radius: 30px;
+}
+.sub-btn i{
+    color: #ffffff;
+}
+
