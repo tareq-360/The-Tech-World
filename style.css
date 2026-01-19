@@ -250,6 +250,10 @@ iframe{
     font-size: 1.5em;
     padding-bottom: 15px;
 }
+#time{
+    color: rgb(1, 189, 1);
+    font-weight: bold;
+}
 .video-card p{
     font-size: 1em;
 
@@ -306,15 +310,19 @@ footer{
     background-image: url(assets/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     max-width: 1200px;
-    padding: 120px;
     margin: 0 auto;
     /* text-align: center; */
 }
 
 .footer-link{
+    max-width: 700px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    text-align: center;
+    
 }
 
 .copy{
