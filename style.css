@@ -210,3 +210,47 @@ nav{
     font-size: 1em;
     color: #ffffffbc;
 }
+.feu-epsd{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 10px 120px 10px;
+}
+.feu-epsd h2{
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+}
+.video-section{
+    
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+.video-card{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    background: #3511655e;
+    width: 380px;
+    
+}
+iframe{
+    border-radius: 15px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.video-card h3,p{
+    padding: 10px;
+    color: #ffffffee;
+}
+.video-card h3{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+.video-card p{
+    font-size: 1em;
+
+}
