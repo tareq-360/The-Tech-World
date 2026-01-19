@@ -12,13 +12,16 @@
 body{
     max-width: 1600px;
     margin: 0 auto;
+    background: #1A0B2E;
 }
 
 nav{
+    margin: 0 auto;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 200px 16px 200px;
+    padding: 16px 10px 16px 10px;
     
 }
 .logo h2{
@@ -58,6 +61,7 @@ nav{
     color: #ffffff;
 }
 .banner{
+    
     background-image:url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,4 +117,96 @@ nav{
     border: 1px solid;
     padding: 5px 15px;
     border-radius: 30px;
+}
+.podcast-sec{
+    margin: 0 auto;
+    
+    max-width: 1200px;
+    padding-top: 20px;
+    text-align: center;
+}
+.about h2{
+    font-weight: bold;
+    font-size: 3em;
+    color: #ffffff;
+}
+.about p {
+
+    color: #ffffff;
+    padding: 20px;
+}
+.rating h2{
+    font-size: 3rem;
+}
+.rating p{
+    font-weight: normal;
+    font-size: 1em;
+    color: #ffffff;
+}
+.average i {
+    font-size: 35px;
+    
+}
+.rating{
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.choose-sction{
+    
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+}
+
+.card-1{
+    align-content: center;
+    padding: 20px;
+    grid-row: span 2;
+    background: #3511655e;
+    border-radius: 30px;
+}
+
+.card-2{
+    align-content: center;
+    grid-column: span 2;
+    background: #3511655e;
+    border-radius: 30px;
+    padding: 20px;
+}
+.card-3{
+    align-content: center;
+    grid-column: span 2;
+    background: #3511655e;
+    border-radius: 30px;
+    padding: 20px;
+}
+.card-4{
+    align-content: center;
+    grid-column: span 2;
+    background: #3511655e;
+    border-radius: 30px;
+    padding: 20px;
+}
+.card-5{
+    align-content: center;
+    background: #3511655e;
+    border-radius: 30px;
+    padding: 20px;
+}
+.choose-sction h3{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.choose-sction p{
+    padding-top: 10px;
+    font-size: 1em;
+    color: #ffffffbc;
 }
