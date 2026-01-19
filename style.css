@@ -254,3 +254,50 @@ iframe{
     font-size: 1em;
 
 }
+.host-section{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#meet{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 20px
+}
+#name{
+    padding-top:20px ;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2em;
+    padding-left: 10px;
+}
+.host-pic{
+    padding: 20px;
+
+}
+.host-pic img{
+    width: 400px;
+    height: 170px;
+}
+.host-content{
+    display: flex;
+    align-items: center;
+    background: #38136984;
+}
+.host-contact{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.host-contact a{
+    padding: 10px;
+    border-radius: 50%;
+    border:1px solid #d708c2;
+}
+.host-info{
+
+    text-align: left;
+}
